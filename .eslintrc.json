@@ -1,0 +1,50 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": [
+        "flowtype"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": "google",
+    "rules": {
+        "valid-jsdoc": "warn",
+        "no-irregular-whitespace": "warn",
+        "spaced-comment": "warn",
+        "no-tabs": "warn",
+        "no-var": "warn",
+        "comma-spacing": "warn",
+        "curly": "warn",
+        "no-unused-vars": "warn",
+        "new-cap": "warn",
+        "space-before-function-paren": "warn",
+        "block-spacing": "warn",
+        "array-bracket-spacing": [ "warn", "always" ],
+        "arrow-parens": ["warn", "always"],
+        "brace-style": [ "warn", "stroustrup" ],
+        "camelcase": "off",
+        "comma-dangle": "off",
+        "computed-property-spacing": [ "warn", "always" ],
+        "eol-last": "off",
+        "indent": [ "warn", 2, { "SwitchCase": 1 } ],
+        "key-spacing": "off",
+        "keyword-spacing": [ "warn", { "before" : true, "after" : true } ],
+        "linebreak-style": [ "warn", "unix" ],
+        "max-len": "off",
+        "no-multi-spaces": "off",
+        "no-trailing-spaces": ["warn", { "skipBlankLines": true } ],
+        "object-curly-spacing": [ "warn", "always" ],
+        "one-var": "off",
+        "padded-blocks": "off",
+        "quotes": [ "warn", "single" ],
+        "require-jsdoc": "off",
+        "semi": [ "warn", "always" ],
+        "space-before-blocks": "off",
+        "space-in-parens": [ "warn", "always" ]
+    }
+  }
+  
